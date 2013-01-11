@@ -38,7 +38,7 @@ inArg BYTE ?				; Check for whether or not we are
 
 
 openError BYTE "An open error has occurred. Please check file.",0
-fileError BYTE "No file was specified. Please supply a file name in the call to hexdump.",0
+fileError BYTE "No file was specified. Please supply a file name in the call to dostunes.",0
 readError BYTE "A read error has occurred. Please check file.",0
 searchError BYTE "An error occured while searching table.",0
 
