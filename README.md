@@ -3,23 +3,10 @@ Jason Wilkin
 1/11/13
 ========
 
-Dostunes is a music player written in assembly language. It reads a .txt file of notes and beats, turning the speaker on and off and playing the approprate frequencies. A sample dostunes file might look like this:
+Dostunes is a music player written in assembly language. It reads a .txt file of notes and beats, turning the speaker on and off and playing the approprate frequencies. See TUNES.TXT for a  sample dostunes file.
 
----------------------
-60
 
-En4
-4
-Gb4
-2
-rr0
-4
-F#4
-8
-
------------------------
-
-The first line of the file is the BPM (Beats Per Minute) for the tune. It is then followed by a newline character and then each note and beat on its own line. A note line must have the format of: note, natural/flat/sharp, octave. Natural/flat/sharp is represented by the n/b/# characters. A beat line will always follow a note line. Each beat line represents the number of beats the preceding note will be played for.
+The first line of the file is the BPM (Beats Per Minute) for the tune. It is then followed by a newline character and then each note and beat on its own line. A note line must have the format of: note, natural/flat/sharp, octave (En7 or A#4). Natural/flat/sharp is represented by the n/b/# characters. A beat line will always follow a note line. Each beat line represents the number of beats the preceding note will be played for.
 
 A rest will always look like rr0 on a note line and can be played for any number of beats.
 
