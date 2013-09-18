@@ -1,6 +1,6 @@
-Dostunes
 Jason Wilkin
 1/11/13
+Dostunes
 ========
 
 Dostunes is a music player written in assembly language. It reads a .txt file of notes and beats, turning the speaker on and off and playing the approprate frequencies.
